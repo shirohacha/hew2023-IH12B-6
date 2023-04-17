@@ -1,0 +1,108 @@
+body{
+  font-family: 'Noto Serif JP', serif;
+}
+
+.tag{
+  margin-top: 150px;
+}
+
+.form{
+    width: 100%;
+    margin:0 auto;
+    border: 1px solid #9c9c9c;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .item{
+    margin-bottom: 20px;
+  }
+  
+  .label_left{
+    display: inline-block;
+    width:30%;
+    border-left: solid 5px #551A8B;
+    padding-left: 15px;
+    vertical-align:top;
+  }
+  
+  
+  .header__inner {
+    margin-top: 15px;
+  }
+  
+  
+ .form input[type="text"], 
+ .form input[type="number"],
+ .form input[type="email"] ,
+ .form input[type="password"] {
+      padding: 10px;
+      width: 65%;
+  }
+  
+ .form textarea{
+    padding: 10px;
+    height: 100px;
+    font-size: 14px;
+    width: 65%;
+  }
+  
+ .form select{
+    height: 35px;
+    width: 65%;
+  }
+  
+  .btns{
+    display: flex;
+    justify-content: center;
+  }
+  
+ .form input[type="submit"]{
+    background: #551A8B;
+    color: white;
+    font-size:16px;
+    font-weight:bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+  
+ .form input[type="reset"]{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size:16px;
+    font-weight:bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+  
+  
+  .modal {
+    display: none; /* 初期状態では非表示 */
+    position: fixed;
+    z-index: 1;
+    left: -270px;
+    top: -410px;
+    width: 200%;
+    height: 200%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 15%;
+    height: 20%;
+    position: relative;
+  }
+  .close {
+    position: absolute;
+    right: 0;
+    top: -50;
+    /* margin-top: 20px; */
+    margin-right: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    cursor: pointer;
+  }

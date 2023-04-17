@@ -1,0 +1,252 @@
+
+
+.item_introduction{
+    position: relative;
+}
+.products__name{
+    position: absolute;
+    font-size: 64px;
+    font-family: 'Noto Serif JP', serif;
+    bottom: 1200px;
+    left: 700px;
+}
+.description{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    bottom: 300px;
+    left: 800px;
+}
+.price{
+    position: absolute;
+    font-size: 42px;
+    font-family: 'Noto Serif JP', serif;
+    bottom: 350px;
+    left: 1000px;
+}
+
+.products__name02{
+    position: absolute;
+    font-size: 64px;
+    font-family: 'Noto Serif JP', serif;
+    bottom: 500px;
+    left: 700px;
+}
+.description02{
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Noto Serif JP', serif;
+    bottom: 450px;
+    left: 800px;
+}
+.price02{
+    position: absolute;
+    font-size: 42px;
+    font-family: 'Noto Serif JP', serif;
+    bottom: 350px;
+    left: 1000px;
+}
+
+
+
+
+
+#photo_canvas_id{
+    position: relative;
+    z-index: 100000;
+    top: 100px;
+}
+#photo_canvas01_01, #photo_canvas01_02, #photo_canvas01_03, #photo_canvas01_04, #photo_canvas01_05, #photo_canvas01_06{
+    position: absolute;
+    left: 300px;
+}
+
+
+
+
+
+
+.box_pop{
+    position: relative;
+    bottom: 300px;
+}
+
+
+.show_pop1, .show_pop2, .show_pop3, .show_pop4, .show_pop5, .show_pop6{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+.show_pop1{
+    left: 800px;
+    background-color: #ffd6ff;
+}
+.show_pop2{
+    left: 900px;
+    background-color: #d6d6ff;
+}
+.show_pop3{
+    left: 1000px;
+    background-color: #d6ffff;
+}
+.show_pop4{
+    left: 1100px;
+    background-color: #d6ffd6;
+}
+.show_pop5{
+    left: 1200px;
+    background-color: #ffffd6;
+}
+.show_pop6{
+    left: 1300px;
+    background-color: #ffd6d6;
+}
+.modal_pop1, .modal_pop2, .modal_pop3, .modal_pop4, .modal_pop5, .modal_pop6{
+        width: 100vw;
+        height: 100vh;
+        position:fixed;
+        top: 0;
+        left:0;
+        z-index:9997!important;
+    }
+    .bg1, .bg2, .bg3, .bg4, .bg5, .bg6{
+        background-color: #1119;
+        width: 100%;
+        height: 100%;
+        position:fixed;
+        z-index:9998!important;
+    }
+    /* .modal_pop img{
+        height:80vh;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index:9999!important;
+    } */
+    
+    
+    
+/*     
+.ladel{
+    width: 5%;
+    height: 5%;
+    background-color: #ffffff;
+    z-index: 100001;
+    position:fixed;
+    cursor: pointer;
+} */
+    
+input[type=radio]{
+    width: 35px;
+    height: 35px;
+    z-index: 100001;
+    position:absolute;
+    top: 496px;
+    left: 1370px;
+    cursor: pointer;
+}
+.p_text{
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    z-index: 100001;
+    position:absolute;
+    top: 500px;
+    left: 1250px;
+}
+input[type=submit]{
+    width: 250px;
+    height: 35px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    z-index: 100001;
+    position:absolute;
+    top: 600px;
+    left: 1230px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #551A8B;
+}
+
+input[type=text]{
+    width: 30px;
+    height: 35px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    z-index: 100001;
+    position:absolute;
+    top: 550px;
+    left: 1230px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #551A8B;
+    border: solid 2px #000000;
+}
+
+.tobu{
+    width: 250px;
+    height: 35px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    z-index: 100001;
+    position:absolute;
+    top: 650px;
+    left: 1230px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #551A8B;
+    border: solid 2px #000000;
+    text-align: center;
+}
+
+.tobu2{
+    width: 450px;
+    height: 40px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    z-index: 100001;
+    position:absolute;
+    top: 750px;
+    left: 1295px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #551A8B;
+    border: solid 2px #000000;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+.modal {
+    display: none; /* 初期状態では非表示 */
+    position: fixed;
+    z-index: 1;
+    left: -270px;
+    top: -410px;
+    width: 200%;
+    height: 200%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* padding: 20px; */
+    border: 1px solid #888;
+    width: 15%;
+    height: 20%;
+    position: relative;
+  }
+  .close {
+    position: absolute;
+    right: 0;
+    top: -50;
+    /* margin-top: 20px; */
+    margin-right: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    cursor: pointer;
+  }  

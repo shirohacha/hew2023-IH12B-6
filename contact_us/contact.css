@@ -1,0 +1,137 @@
+
+body {
+    width: 100vw;
+    height: auto;
+    padding: 80px;
+	text-align: center;
+    overflow-x: hidden;
+    margin-top: 60px;
+	font-family: 'Noto Serif JP', serif;
+}
+
+h1 {
+	margin-bottom: 20px;
+	padding: 20px 0;
+	font-size: 122%;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+input[type=text] {
+	padding: 5px 10px;
+	font-size: 86%;
+	border-radius: 3px;
+}
+
+input[name=btn_confirm],
+input[name=btn_submit],
+input[name=btn_back] {
+	margin-top: 10px;
+	padding: 5px 20px;
+	font-size: 100%;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 3px;
+	background: #551A8B;
+}
+
+input[name=btn_back] {
+	margin-right: 20px;
+	box-shadow: 0 3px 0 #777;
+}
+
+.element_wrap {
+	margin-bottom: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-weight: bold;
+	width: 150px;
+	vertical-align: top;
+}
+
+.element_wrap p {
+	display: inline-block;
+	margin:  0;
+	text-align: left;
+}
+
+label[for=gender_male],
+label[for=gender_female],
+label[for=agreement] {
+	margin-right: 10px;
+	width: auto;
+	font-weight: normal;
+}
+
+textarea[name=contact] {
+	padding: 5px 10px;
+	width: 60%;
+	height: 100px;
+	font-size: 86%;
+	border-radius: 3px;
+}
+
+.error_list {
+	padding: 10px 30px;
+	color: #ff2e5a;
+	font-size: 86%;
+	text-align: left;
+	border: 1px solid ;
+	border-radius: 5px;
+}
+
+.modal {
+	display: none; /* 初期状態では非表示 */
+	position: fixed;
+	z-index: 1;
+	left: -270px;
+	top: -410px;
+	width: 200%;
+	height: 200%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	/* padding: 20px; */
+	border: 1px solid #888;
+	width: 15%;
+	height: 20%;
+	position: relative;
+  }
+  .close {
+	position: absolute;
+	right: 0;
+	top: -50;
+	/* margin-top: 20px; */
+	margin-right: 20px;
+	font-size: 34px;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  
+  
+  
+  .tobu{
+	width: 450px;
+	height: 40px;
+	font-family: 'Noto Serif JP', serif;
+	font-weight: bold;
+	z-index: 100001;
+	position:absolute;
+	top: 750px;
+	left: 1312px;
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #551A8B;
+	border: solid 2px #000000;
+	text-align: center;
+	padding-top: 5px;
+  }

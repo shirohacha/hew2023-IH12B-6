@@ -1,0 +1,11 @@
+contact.php : 問い合わせフォームおよび処理
+images/test : 画像アップロード用
+
+
+
+localhost Xampp側の設定
+
+参考記事
+https://qiita.com/kaitaku/items/58d772f5bf441fe86c08
+
+https://my-web-note.com/xampp-mail-send-php/

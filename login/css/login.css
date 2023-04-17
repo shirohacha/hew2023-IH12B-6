@@ -1,0 +1,443 @@
+/* COMMON (共通) */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Noto Serif JP', serif;
+}
+
+body {
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; */
+  /* font-family: 'Noto Serif JP', serif; */
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* .all_font_poppins {
+  font-family: "Poppins", sans-serif;
+  font-family: 'Noto Serif JP', serif;
+} */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+p {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 22%;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  width: 101%;
+  height: auto;
+  background-color: #a481c4;
+  padding: 220px 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1%;
+  border-style: inset;
+}
+
+.control {
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+}
+
+/* LOGIN_FORM.PHP */
+.login_email,
+.login_password {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 90%;
+  transform: translate(-50%, -50%);
+}
+.login_email {
+  top: 40%;
+}
+.login_password {
+  top: 50%;
+}
+.login_submit,
+.login_entry {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_submit {
+  top: 70%;
+}
+.login_entry {
+  top: 80%;
+  color: #ffffff;
+  font-size: small;
+}
+
+/* TEXT */
+.text_email,
+.text_password {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 18px;
+}
+.text_password {
+  letter-spacing: 0.4em;
+}
+/* INPUT */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="phone_number"] {
+  width: 237px;
+  padding: 10px 0;
+  outline: none;
+}
+input[type="email"] {
+  margin: 0 0 0 20.4px;
+}
+.login_password input[type="password"] {
+  margin: 0 0 0 13.2px;
+}
+.entry_password input[type="password"] {
+  margin: 0 0 0 52.4px;
+}
+input[type="text"] {
+  margin: 0 0 0 68px;
+}
+input[type="phone_number"] {
+  margin: 0 0 0 63.7px;
+}
+input[type="submit"] {
+  color: #fff;
+  background-color: #afafaf;
+  font-size: medium;
+  font-weight: 700;
+  padding: 10px 100px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* ENTRY_FORM.PHP */
+.entry_name,
+.entry_email,
+.entry_phone_number,
+.entry_password,
+.entry_submit {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: medium;
+}
+
+.entry_name {
+  top: 40%;
+  left: 91%;
+  letter-spacing: 2em;
+}
+.entry_email {
+  top: 50%;
+  left: 91%;
+}
+.entry_phone_number {
+  top: 60%;
+  left: 91%;
+  letter-spacing: 0.05em;
+}
+.entry_password {
+  top: 70%;
+  left: 91%;
+}
+.entry_submit {
+  top: 85%;
+  left: 94%;
+}
+
+/* P */
+.entry_p01,
+.check_p01,
+.check_p02,
+.thank_p01,
+.true_login_p01,
+.mypage_p01,
+.mypage_p02,
+.logout_p01 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.entry_p01 {
+  top: 24%;
+}
+.check_p01 {
+  top: 26%;
+}
+.check_p02 {
+  top: 31%;
+}
+.thank_p01 {
+  top: 55%;
+}
+.true_login_p01 {
+  top: 45%;
+}
+.mypage_p01 {
+  top: 40%;
+}
+.mypage_p02 {
+  top: 50%;
+}
+.logout_p01 {
+  top: 50%;
+}
+
+.entry_submit button[type="submit"] {
+  color: #fff;
+  background-color: #535353;
+  font-size: medium;
+  font-weight: 700;
+  padding: 10px 100px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.entry_submit button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* CHECK */
+
+
+
+
+.check_name,
+.check_email,
+.check_phone_number {
+  width: 100%;
+  height: auto;
+  font-size: medium;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.check_name {
+  top: 45%;
+left: 72%;
+}
+.check_name .check_name_text {
+  letter-spacing: 2em;
+  margin: 0 26px 0 0;
+  left: 13%;
+}
+.check_email {
+  top: 55%;
+  left: 72%;
+}
+.check_email .check_email_text {
+  margin: 0 10px 0 0;
+  left: 13%;
+}
+.check_phone_number {
+  top: 65%;
+  left: 72%;
+}
+.check_phone_number .check_phone_number_text {
+  letter-spacing: 0.05em;
+  margin: 0 55px 0 0;
+  left: 13%;
+}
+
+.check_submit {
+  position: fixed;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.check_submit a,
+.check_submit button[type="submit"] {
+  color: #fff;
+  background-color: #b990df;
+  font-size: medium;
+  font-weight: 700;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.check_submit a:hover,
+.check_submit button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.check_submit a {
+  border: solid 2px #000;
+  padding: 11.2px 100px;
+}
+.check_submit button[type="submit"] {
+  padding: 10px 100px;
+}
+
+.thank_submit {
+  position: fixed;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.thank_submit .btn {
+  color: #fff;
+  background-color: #551A8B;
+  font-size: medium;
+  font-weight: 700;
+  padding: 10px 100px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.thank_submit .btn:hover {
+  opacity: 0.8;
+}
+
+.true_login_submit {
+  position: fixed;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.true_login_submit a {
+  color: #fff;
+  background-color: #551A8B;
+  font-size: medium;
+  font-weight: 700;
+  padding: 12px 100px;
+  cursor: pointer;
+  border: solid 2px #000;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.true_login_submit a:hover {
+  opacity: 0.8;
+}
+
+.mypage_submit {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mypage_submit input[type="submit"],
+.mypage_submit a {
+  color: #fff;
+  background-color: #551A8B;
+  font-size: medium;
+  font-weight: 700;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.mypage_submit input[type="submit"]:hover,
+.mypage_submit a:hover {
+  opacity: 0.8;
+}
+.mypage_submit a {
+  border: solid 2px #000;
+  padding: 11.2px 69px;
+  position: absolute;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+.mypage_submit input[type="submit"] {
+  padding: 12px 100px;
+  position: absolute;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.logout_submit {
+  position: fixed;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logout_submit a {
+  color: #fff;
+  background-color: #551A8B;
+  font-size: medium;
+  font-weight: 700;
+  padding: 12px 100px;
+  cursor: pointer;
+  border: solid 2px #000;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.logout_submit a:hover {
+  opacity: 0.8;
+}
+
+/* medium screen */
+
+@media (min-width: 600px) {
+  .products li {
+    width: calc((100% - 32px) / 3);
+  }
+}
+
+/* large screen */
+
+@media (min-width: 800px) {
+  .container {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  header form {
+    display: block;
+  }
+}
+
+
